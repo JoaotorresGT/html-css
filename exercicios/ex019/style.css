@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*
+id=# (so pode ter um elemento)
+class=. (pode vários elementos)
+*/
+body{
+    background-color: #5C7373;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+color: #011F26;
+}
+h1#principal {
+    text-align: center;
+    background-color: #032612;
+    color: white;
+}
+h2{
+color: white;
+}
+.basico{
+color: #41e041;
+font-weight: bold;
+}
+.intermediario{
+    color: #a3a122
+}
+.avancado{
+    color: #a02222
+}
