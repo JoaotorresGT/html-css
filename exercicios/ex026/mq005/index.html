@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
+
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
-                <li><a href="">Opção 1</a></li>
-                <li><a href="">Opção 2</a></li>
-                <li><a href="">Opção 3</a></li>
-                <li><a href="">Opção 4</a></li>
-                <li><a href="">Opção 5</a></li>
-                <li><a href="">Opção 6</a></li>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+                <li><a href="#">Opção 6</a></li>
             </ul>
         </menu>
     </header>
@@ -25,7 +28,22 @@
             <h2>Testando Media Queries</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod unde asperiores quam, blanditiis sed inventore, aliquam, praesentium debitis laudantium non officiis odio quos facilis repellendus? Ex, tempore nihil. Labore, vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa at quibusdam, vero modi error cupiditate odit vitae, voluptate accusantium asperiores sunt eligendi corrupti aliquam! Vero itaque iure doloremque repellendus fugit.</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta sunt sint rerum nam blanditiis eius vero tempora, voluptate et architecto modi vitae quas repellendus ipsa ullam perspiciatis incidunt ame.t Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, mollitia recusandae? Ipsam vitae illum repellendus aliquid, illo qui, maxime harum modi necessitatibus vero mollitia esse amet enim tenetur atque cumque!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod unde asperiores quam, blanditiis sed inventore, aliquam, praesentium debitis laudantium non officiis odio quos facilis repellendus? Ex, tempore nihil. Labore, vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa at quibusdam, vero modi error cupiditate odit vitae, voluptate accusantium asperiores sunt eligendi corrupti aliquam! Vero itaque iure doloremque repellendus fugit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta sunt sint rerum nam blanditiis eius vero tempora, voluptate et architecto modi vitae quas repellendus ipsa ullam perspiciatis incidunt ame.t Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, mollitia recusandae? Ipsam vitae illum repellendus aliquid, illo qui, maxime harum modi necessitatibus vero mollitia esse amet enim tenetur atque cumque!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod unde asperiores quam, blanditiis sed inventore, aliquam, praesentium debitis laudantium non officiis odio quos facilis repellendus? Ex, tempore nihil. Labore, vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa at quibusdam, vero modi error cupiditate odit vitae, voluptate accusantium asperiores sunt eligendi corrupti aliquam! Vero itaque iure doloremque repellendus fugit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta sunt sint rerum nam blanditiis eius vero tempora, voluptate et architecto modi vitae quas repellendus ipsa ullam perspiciatis incidunt ame.t Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, mollitia recusandae? Ipsam vitae illum repellendus aliquid, illo qui, maxime harum modi necessitatibus vero mollitia esse amet enim tenetur atque cumque!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod unde asperiores quam, blanditiis sed inventore, aliquam, praesentium debitis laudantium non officiis odio quos facilis repellendus? Ex, tempore nihil. Labore, vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa at quibusdam, vero modi error cupiditate odit vitae, voluptate accusantium asperiores sunt eligendi corrupti aliquam! Vero itaque iure doloremque repellendus fugit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta sunt sint rerum nam blanditiis eius vero tempora, voluptate et architecto modi vitae quas repellendus ipsa ullam perspiciatis incidunt ame.t Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, mollitia recusandae? Ipsam vitae illum repellendus aliquid, illo qui, maxime harum modi necessitatibus vero mollitia esse amet enim tenetur atque cumque!</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
